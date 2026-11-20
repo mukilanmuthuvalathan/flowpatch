@@ -178,12 +178,17 @@ export default function App() {
     <div className="min-h-screen bg-[#090d16] text-slate-100 flex flex-col">
       {/* Strict 3-Zone Top Bar Contract */}
       <header className="flex items-center justify-between gap-8 px-6 py-4 border-b border-slate-800/90 bg-slate-950/90">
-        {/* Zone 1: Single text element wordmark */}
+        {/* Zone 1: Brand logo */}
         <a
           href="#workspace-top"
-          className="text-lg font-bold tracking-tight text-slate-100 font-display whitespace-nowrap shrink-0"
+          aria-label="FlowPatch"
+          className="inline-flex items-center shrink-0 rounded-lg bg-white ring-1 ring-slate-700/80 shadow-sm overflow-hidden h-10 w-[148px] focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400"
         >
-          FlowPatch
+          <img
+            src="/assets/aistudio/image_c6598baf.png"
+            alt="FlowPatch"
+            className="w-full h-full object-cover object-[50%_49%] scale-[1.40]"
+          />
         </a>
 
         {/* Zone 2: 4 concise single-line navigation links */}

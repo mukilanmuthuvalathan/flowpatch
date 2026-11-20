@@ -1,0 +1,6 @@
+{
+  "name": "FlowPatch — Kane CLI & Agent Regression Repair Loop",
+  "description": "Developer workspace demonstrating Kane CLI browser flow verification and an automated coding agent loop catching and repairing a real user-flow regression end to end.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
